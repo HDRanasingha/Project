@@ -21,11 +21,11 @@ function App() {
           <Routes>
             <Route path="/" element={<LoginPage />} />
             <Route
-              path="/home"
+              path="/home" element={<HomePage />}
              
             />
             <Route
-              path="/profile/:userId"
+              path="/profile/:userId" element={<ProfilePage />}
               
             />
           </Routes>
